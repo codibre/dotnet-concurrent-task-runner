@@ -1,7 +1,7 @@
 {
-  "name": "dotnet-enumerable",
+  "name": "dotnet-concurrent-task-runner",
   "version": "0.0.0",
-  "description": "Libraries with enumerable extensions",
+  "description": "A lib for concurrent, semaphore limited task runner under the hood",
   "scripts": {
     "build": "dotnet build",
     "start": "dotnet start",
@@ -11,8 +11,7 @@
     "lint": "dotnet format --verify-no-changes",
     "restore": "dotnet restore",
     "test": "dotnet test",
-    "test:coverage": "dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=lcov /p:CoverletOutput=./coverage/lcov.info",
-    "benchmark": "dotnet run --project test/Codibre.ConcurrentTaskRunner.Benchmark/Codibre.ConcurrentTaskRunner.Benchmark.csproj  -c Release"
+    "test:coverage": "dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=lcov /p:CoverletOutput=./coverage/lcov.info"
   },
   "devDependencies": {
     "@types/lint-staged": "^13.3.0",

@@ -6,10 +6,10 @@
     <Nullable>enable</Nullable>
     <LangVersion>13</LangVersion>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryUrl>https://github.com/codibre/dotnet-enumerable.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/codibre/dotnet-concurrent-task-runner.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <IsPackable>true</IsPackable>
-    <PackageTags>Linq;Enumerable;Parallel;Multiple;Branch;Branching;Separate;Memory</PackageTags>
+    <PackageTags>Parallel;Multiple;Concurrent;Limiting;Limit</PackageTags>
     <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
     <Version>0.0.0</Version>
   </PropertyGroup>

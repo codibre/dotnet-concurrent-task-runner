@@ -1,9 +1,9 @@
-[![Actions Status](https://github.com/Codibre/dotnet-enumerable/workflows/build/badge.svg)](https://github.com/Codibre/dotnet-enumerable/actions)
-[![Actions Status](https://github.com/Codibre/dotnet-enumerable/workflows/test/badge.svg)](https://github.com/Codibre/dotnet-enumerable/actions)
-[![Actions Status](https://github.com/Codibre/dotnet-enumerable/workflows/lint/badge.svg)](https://github.com/Codibre/dotnet-enumerable/actions)
-[![Maintainability](https://api.codeclimate.com/v1/badges/09278283aa83446a1b39/maintainability)](https://codeclimate.com/github/codibre/dotnet-enumerable/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/09278283aa83446a1b39/test_coverage)](https://codeclimate.com/github/codibre/dotnet-enumerable/test_coverage)
+[![Actions Status](https://github.com/Codibre/dotnet-concurrent-task-runner/workflows/build/badge.svg)](https://github.com/Codibre/dotnet-concurrent-task-runner/actions)
+[![Actions Status](https://github.com/Codibre/dotnet-concurrent-task-runner/workflows/test/badge.svg)](https://github.com/Codibre/dotnet-concurrent-task-runner/actions)
+[![Actions Status](https://github.com/Codibre/dotnet-concurrent-task-runner/workflows/lint/badge.svg)](https://github.com/Codibre/dotnet-concurrent-task-runner/actions)
+[![Maintainability](https://api.codeclimate.com/v1/badges/1bb9ce35589dc5714669/maintainability)](https://codeclimate.com/github/codibre/dotnet-concurrent-task-runner/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/1bb9ce35589dc5714669/test_coverage)](https://codeclimate.com/github/codibre/dotnet-concurrent-task-runner/test_coverage)
 
 #Codibre.ConcurrentTaskRunner
 
-Repository with many useful extensions for enumerables
+A lib for concurrent, semaphore limited task runner under the hood
