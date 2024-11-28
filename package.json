@@ -1,0 +1,29 @@
+{
+  "name": "dotnet-enumerable",
+  "version": "0.0.0",
+  "description": "Libraries with enumerable extensions",
+  "scripts": {
+    "build": "dotnet build",
+    "start": "dotnet start",
+    "prepare": "husky",
+    "lint:stage:fix": "lint-staged --relative",
+    "lint:fix": "dotnet format",
+    "lint": "dotnet format --verify-no-changes",
+    "restore": "dotnet restore",
+    "test": "dotnet test",
+    "test:coverage": "dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=lcov /p:CoverletOutput=./coverage/lcov.info",
+    "benchmark": "dotnet run --project test/Codibre.ConcurrentTaskRunner.Benchmark/Codibre.ConcurrentTaskRunner.Benchmark.csproj  -c Release"
+  },
+  "devDependencies": {
+    "@types/lint-staged": "^13.3.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.10",
+    "run-container": "^2.0.12"
+  },
+  "lint-staged": {
+    "*.cs": "dotnet format --include"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

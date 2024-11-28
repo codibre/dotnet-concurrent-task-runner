@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net7.0;net8.0;net9.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>13</LangVersion>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/codibre/dotnet-enumerable.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <IsPackable>true</IsPackable>
+    <PackageTags>Linq;Enumerable;Parallel;Multiple;Branch;Branching;Separate;Memory</PackageTags>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <Version>0.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Linq.Async" Version="6.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="./README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+
+</Project>
